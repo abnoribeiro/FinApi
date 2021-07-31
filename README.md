@@ -25,14 +25,14 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
 - [x]  Não deve ser possível fazer saque quando o saldo for insuficiente
 
 #Endpoints
-============================================
+
 - Post (http://localhost:3333/account) 
   request body: 
     {
       cpf: "",
       name:""
     }
-============================================
+
 - Put (http://localhost:3333/account) 
   request header: 
       cpf: ""
@@ -40,30 +40,30 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
     {
       name:""
     }
-============================================    
+
 - Get (http://localhost:3333/account) 
   request header: 
       cpf: ""
-============================================      
+
 - Delete (http://localhost:3333/account) 
   request header: 
       cpf: ""
-============================================
+
 - Get (http://localhost:3333/balance) 
   request header: 
       cpf: ""
-============================================     
+
 - Get (http://localhost:3333/statement/)
   request header: 
       cpf: ""
-============================================
+
 - Get (http://localhost:3333/statement/date)
   request query:
       date: "YYYY-MM-DD"
   
   request header: 
       cpf: ""
-============================================
+
 - Post (http://localhost:3333/deposit/)
   request header: 
       cpf: ""
@@ -73,7 +73,7 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
         description: "",
         amount: ""
       }
-============================================
+
 - Post (http://localhost:3333/withdraw/)
   request header: 
       cpf: ""
@@ -83,7 +83,7 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
       description: "",
       amount: ""
     }
-============================================
+
 #Tipos de rotas ultilizadas
 
 - Post
