@@ -27,70 +27,70 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
 
 - Post (http://localhost:3333/account)
  
-  request body: 
+  exemplo request body: 
     {
-      cpf: "",
-      name:""
+      cpf: "00000000000",
+      name:"Nome completo"
     }
 
 - Put (http://localhost:3333/account)
  
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
-  request body: 
+  exemplo request body: 
     {
-      name:""
+      name:"Nome completo"
     }
 
 - Get (http://localhost:3333/account) 
 
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
 - Delete (http://localhost:3333/account) 
 
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
 - Get (http://localhost:3333/balance) 
   
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
 - Get (http://localhost:3333/statement/)
   
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
 - Get (http://localhost:3333/statement/date)
   
-  request query:
-      date: "YYYY-MM-DD"
+  exemplo request query:
+      date: "2021-07-31" // Formato ANO-MES-DIA -> YYYY-MM-DD
   
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
 
 - Post (http://localhost:3333/deposit/)
   
-  request header: 
-      cpf: ""
+ exemplo request header: 
+      cpf: "00000000000"
   
-  request body: 
+  exemplo request body: 
       {
-        description: "",
-        amount: ""
+        description: "Descrição de depósito",
+        amount: 2000.00 // Tipo Float
       }
 
 - Post (http://localhost:3333/withdraw/)
   
-  request header: 
-      cpf: ""
+  exemplo request header: 
+      cpf: "00000000000"
   
   request body: 
     {
-      description: "",
-      amount: ""
+      description: "Descrição de saque",
+      amount: 2000.00 // Tipo Float
     }
 
 #Tipos de rotas ultilizadas
