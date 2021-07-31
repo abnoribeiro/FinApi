@@ -34,31 +34,38 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
       name:""
     }
 
-- Put (http://localhost:3333/account) 
+- Put (http://localhost:3333/account)
+ 
   request header: 
       cpf: ""
+
   request body: 
     {
       name:""
     }
 
 - Get (http://localhost:3333/account) 
+
   request header: 
       cpf: ""
 
 - Delete (http://localhost:3333/account) 
+
   request header: 
       cpf: ""
 
 - Get (http://localhost:3333/balance) 
+  
   request header: 
       cpf: ""
 
 - Get (http://localhost:3333/statement/)
+  
   request header: 
       cpf: ""
 
 - Get (http://localhost:3333/statement/date)
+  
   request query:
       date: "YYYY-MM-DD"
   
@@ -66,6 +73,7 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
       cpf: ""
 
 - Post (http://localhost:3333/deposit/)
+  
   request header: 
       cpf: ""
   
@@ -76,6 +84,7 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
       }
 
 - Post (http://localhost:3333/withdraw/)
+  
   request header: 
       cpf: ""
   
