@@ -26,7 +26,8 @@ Api desenvolvida para estudo de casos com node, simulando operações básicas d
 
 #Endpoints
 
-- Post (http://localhost:3333/account) 
+- Post (http://localhost:3333/account)
+ 
   request body: 
     {
       cpf: "",
