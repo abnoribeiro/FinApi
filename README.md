@@ -1,5 +1,4 @@
 # FinApi
-Api básica node
 
 Api desenvolvida para estudo de casos com node, simulando operações básicas de uma financeira.
 
